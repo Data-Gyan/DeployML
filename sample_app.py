@@ -50,7 +50,7 @@ st.latex(r'''\Gamma ( g + 9 r^3 + a r^2 + g r^3) ''')
 df= pd.DataFrame(
     np.random.randn(10, 2),
     columns=['x', 'y'])
-st.line_chart(df[['x']])
+st.line_chart(df)
 
 
 df= pd.DataFrame(
