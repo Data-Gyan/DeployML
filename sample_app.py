@@ -71,7 +71,7 @@ st.exception(RuntimeError("RuntimeError exception"))
 st.balloons()
 st.progress(10)
 with st.spinner('Wait for it...'):
-    time.sleep(10)
+    time.sleep(2)
 
 isCheck = st.checkbox('yes')
 st.write(f"Selection : {0}", isCheck)
